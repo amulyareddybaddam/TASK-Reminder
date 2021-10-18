@@ -11,5 +11,13 @@
         android:layout_height="724dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="1dp"></LinearLayout>
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
