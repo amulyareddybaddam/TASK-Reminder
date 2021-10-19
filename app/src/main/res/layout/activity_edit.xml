@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/Add"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Remainding Task" />
+
+            <EditText
+                android:id="@+id/ET1"
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Enter Task here"
+                android:singleLine="true" />
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8sp">
+
+
+
+                <RadioGroup
+                    android:id="@+id/radiobutton_priority"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/Enable"
+                        android:layout_width="0sp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="Enable"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/Disable"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Disable"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8sp">
+
+
+                <CheckBox
+                    android:id="@+id/Day_before"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="A Day Before"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/Morning"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="In the Morning"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/DateET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                    <Button
+                        android:id="@+id/date_btn"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Date" />
+
+                    <Button
+                        android:id="@+id/time_btn"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="Time" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:minHeight="32dp"
+        android:onClick="onCancelClick"
+        android:orientation="horizontal"
+        android:padding="8sp">
+
+        <Button
+            android:id="@+id/done_btn"
+
+            android:layout_width="163dp"
+            android:layout_height="48dp"
+            android:text="Done" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:onClick="onCancelClick"
+            android:text="Cancel" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
