@@ -10,7 +10,7 @@
         android:layout_width="182dp"
         android:layout_height="42dp"
 
-        android:text="Rate US"
+        android:text="Rate our app"
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
