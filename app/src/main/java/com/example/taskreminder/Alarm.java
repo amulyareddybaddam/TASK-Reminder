@@ -7,8 +7,11 @@ import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 public class Alarm {
 
+    private static final String TITLE = "TITLE";
     DBHelper helper;
     private int id;
     private int alarmId;
@@ -16,7 +19,7 @@ public class Alarm {
     private int enabled,date;
     private String title,day,month;
 
-    public Alarm(int id,int alarmId, String title , int enabled, String priority, int hour, int minute, int date,  String month, String day, String location, String lat, String lng) {
+    public Alarm(int id,int alarmId, String title , int enabled, int hour, int minute, int date,  String month, String day) {
         this.id = id;
         this.alarmId = alarmId;
         this.hour = hour;

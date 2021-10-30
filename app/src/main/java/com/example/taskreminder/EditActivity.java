@@ -31,8 +31,7 @@ public class EditActivity extends AppCompatActivity {
     int selected_id =0;
     String action = "no";
     Intent i;
-    RadioButton enabled_checkbox;
-    RadioGroup radioGroup;
+    CheckBox enabled_checkbox;
     EditText editText_Name;
     boolean isEnabled ;
     String name,selectedDay,selectedMonth;
@@ -120,14 +119,8 @@ public class EditActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 name = editText_Name.getText().toString();
-                isEnabled = ((RadioButton) findViewById(R.id.Enable)).isChecked();
+                isEnabled = ((CheckBox) findViewById(R.id.Enable)).isChecked();
 
-                int selectedRadioButtonId = radioGroup.getCheckedRadioButtonId();
-                if (selectedRadioButtonId != -1) {
-                    Toast.makeText(EditActivity.this, "Title: "+name+"\nEnabled: "+isEnabled, Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(EditActivity.this, "Nothing selected from the radio group", Toast.LENGTH_SHORT).show();
-                }
                 if(isEnabled){
                     enable = 1;
                 }
@@ -207,7 +200,7 @@ public class EditActivity extends AppCompatActivity {
         Alarm alarm = new Alarm(selected_id,alarmId,name,enable,selectedHour,selectedMinute,selectedDate,selectedMonth,selectedDay);
         Log.d("edit before schedule",edit_action+"");
 
-        //alarm.schedule(getApplicationContext(),alarm,calendar,edit_action,false);
+        alarm.schedule(getApplicationContext(),alarm,calendar,edit_action,false);
 
         Intent i =new Intent(this,MainActivity.class);
         startActivity(i);

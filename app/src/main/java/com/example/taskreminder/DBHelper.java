@@ -122,11 +122,11 @@ public class DBHelper extends SQLiteOpenHelper {
                 int alarm_id = result.getInt(1);
                 String title = result.getString(2);
                 int enabled=result.getInt(3);
-                int hour = result.getInt(5);
-                int minute = result.getInt(6);
-                int date = result.getInt(7);
-                String month = result.getString(8);
-                String day = result.getString(9);
+                int hour = result.getInt(4);
+                int minute = result.getInt(5);
+                int date = result.getInt(6);
+                String month = result.getString(7);
+                String day = result.getString(8);
                 Alarm alarm = new Alarm(_id, alarm_id,title,enabled,hour,minute,date,month,day);
 
                 list.add(alarm);
@@ -139,11 +139,11 @@ public class DBHelper extends SQLiteOpenHelper {
             Log.d("alarm_id",result.getInt(1)+"");
             Log.d("title",result.getString(2)+"");
             Log.d("enabled",result.getInt(3)+"");
-            Log.d("hour",result.getInt(5)+"");
-            Log.d("minute",result.getInt(6)+"");
-            Log.d("date",result.getInt(7)+"");
-            Log.d("month",result.getString(8)+"");
-            Log.d("day",result.getString(9)+"");
+            Log.d("hour",result.getInt(4)+"");
+            Log.d("minute",result.getInt(5)+"");
+            Log.d("date",result.getInt(6)+"");
+            Log.d("month",result.getString(7)+"");
+            Log.d("day",result.getString(8)+"");
         }
 
         db2.close();

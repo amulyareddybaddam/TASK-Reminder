@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Selected Item: " +item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {
             case R.id.help:
-                Intent helpint = new Intent(MainActivity.this, HelpFragment.class);
+                Intent helpint = new Intent(MainActivity.this, HelpFrag.class);
                 startActivity(helpint);
                 return true;
             case R.id.dashboard:
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(boardint);
                 return true;
             case R.id.rateUs:
-                Intent rateint= new Intent(MainActivity.this, rateUsActivity.class);
+                Intent rateint= new Intent(MainActivity.this, RatingActivity.class);
                 startActivity(rateint);
                 return true;
 
