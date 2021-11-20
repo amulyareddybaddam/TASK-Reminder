@@ -23,5 +23,7 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 -	One button “Done” to set the remainder.
 - One button to cancel the remainder.	
 
+### Reminder List Activity
+
 
 
