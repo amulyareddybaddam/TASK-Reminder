@@ -14,6 +14,14 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 - We also have a button which takes us to the New remainder activity where we can create a new remainder.
 
 ### New Remainder Activity
+- Here the new remainder is created.
+-	It consists of Edit Text where we will take the name/description of the remainder.
+-	A radio button for enable or disable the remainder.
+-	Early reminder checkbox for reminding a day before or in the morning of the reminder.
+-	One button to set the date.
+-	One button to set the time.
+-	One button “Done” to set the remainder.
+- One button to cancel the remainder.	
 
 
 
