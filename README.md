@@ -25,5 +25,6 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 
 ### Reminder List Activity
 
-
+- It shows the dashboard and it also consists of list view where all the remainders can be seen.
+- Here in the list view we can see the remainder with date, time and we can also have buttons to edit and delete the remainder.
 
