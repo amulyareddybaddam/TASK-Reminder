@@ -13,6 +13,12 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 - This screen consists of menu bar for selecting Dashboard, Help, Rate US, and Exit.
 - We also have a button which takes us to the New remainder activity where we can create a new remainder.
 
+<img width="247" alt="Screenshot (94)" src="https://user-images.githubusercontent.com/77635770/144762519-21033283-e341-4712-88b2-6f9c24d95f8c.png">
+
+<img width="242" alt="Screenshot (109)" src="https://user-images.githubusercontent.com/77635770/144762545-cf9cf07f-bb8e-41a7-bcde-f14b0ae0cad8.png">
+
+<img width="242" alt="Screenshot (110)" src="https://user-images.githubusercontent.com/77635770/144762578-d0962c0c-3156-46c4-a352-190250a868d4.png">
+
 ### New Remainder Activity
 - Here the new remainder is created.
 -	It consists of Edit Text where we will take the name/description of the remainder.
