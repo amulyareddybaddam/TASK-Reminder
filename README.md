@@ -48,6 +48,10 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 - It shows the name/description of the remainder in Text View.
 - It also consists a button to dismiss the alarm which redirects to the dashboard.
 
+![Screenshot (99)](https://user-images.githubusercontent.com/77635770/144763707-fdcdf317-317f-445a-9c8c-b4998631b754.png)
+
+![Screenshot (106)](https://user-images.githubusercontent.com/77635770/144763710-53a84bb5-e175-46a4-8f9e-5f1506e16e32.png)
+
 ### Supported Devices:
 
 -	only works in android devices.
