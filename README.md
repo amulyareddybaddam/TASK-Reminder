@@ -31,6 +31,10 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 -	One button “Done” to set the remainder.
 - One button to cancel the remainder.	
 
+![Screenshot (95)](https://user-images.githubusercontent.com/77635770/144763645-84472eb6-98ec-4b10-8440-20b03f0b9b16.png)
+
+![Screenshot (97)](https://user-images.githubusercontent.com/77635770/144763655-fc77d250-c606-4232-b1a3-783c1dbccac5.png)
+
 ### Reminder List Activity
 
 - It shows the dashboard and it also consists of list view where all the remainders can be seen.
