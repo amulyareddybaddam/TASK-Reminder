@@ -40,6 +40,8 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 - It shows the dashboard and it also consists of list view where all the remainders can be seen.
 - Here in the list view we can see the remainder with date, time and we can also have buttons to edit and delete the remainder.
 
+![Screenshot (108)](https://user-images.githubusercontent.com/77635770/144763682-81bb19dd-d46c-42e3-973f-c6e3c2badd98.png)
+
 ### Ringing Activity
 
 - This page pops up when the remainder is set and alarm ringing.
