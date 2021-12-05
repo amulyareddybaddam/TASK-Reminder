@@ -19,6 +19,8 @@ Here in this app, users can get the remainder of tasks on time by saving the req
 
 <img width="242" alt="Screenshot (110)" src="https://user-images.githubusercontent.com/77635770/144762578-d0962c0c-3156-46c4-a352-190250a868d4.png">
 
+![Screenshot (112)](https://user-images.githubusercontent.com/77635770/144762752-eb5d05c6-ba93-4b47-a972-818634850f55.png)
+
 ### New Remainder Activity
 - Here the new remainder is created.
 -	It consists of Edit Text where we will take the name/description of the remainder.
